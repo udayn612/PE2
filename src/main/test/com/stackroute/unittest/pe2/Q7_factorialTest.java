@@ -6,12 +6,14 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Q2_powerof4Test {
+public class Q7_factorialTest {
 
-    Q2_powerof4 q2;
+    Q7_factorial q7;
+
     @Before
     public void setUp() throws Exception {
-        q2=new Q2_powerof4();
+
+        q7=new Q7_factorial();
     }
 
     @After
@@ -19,7 +21,8 @@ public class Q2_powerof4Test {
     }
 
     @Test
-    public void ispower4() {
-        assertEquals(false,q2.ispower4(3));
+    public void factorial() {
+
+        assertEquals(24,q7.factorial(4));
     }
 }

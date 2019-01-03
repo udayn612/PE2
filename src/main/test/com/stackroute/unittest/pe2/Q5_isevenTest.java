@@ -18,10 +18,10 @@ public class Q5_isevenTest {
 
     @Test
     public void isEvenSuccess() {
-        assertEquals(5,Q5_iseven.isEven());
+        assertEquals(true,Q5_iseven.isEven(2));
     }
     @Test
     public void isEvenFailure() {
-        assertNotEquals(5,Q5_iseven.isEven());
+        assertNotEquals(false,Q5_iseven.isEven(4));
     }
 }
