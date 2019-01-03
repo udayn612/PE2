@@ -6,10 +6,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Q5_isevenTest {
+public class PowerofFourTest {
 
+    PowerofFour q2;
     @Before
     public void setUp() throws Exception {
+        q2=new PowerofFour();
     }
 
     @After
@@ -17,11 +19,7 @@ public class Q5_isevenTest {
     }
 
     @Test
-    public void isEvenSuccess() {
-        assertEquals(true,Q5_iseven.isEven(2));
-    }
-    @Test
-    public void isEvenFailure() {
-        assertNotEquals(false,Q5_iseven.isEven(4));
+    public void ispower4() {
+        assertEquals(false,q2.ispower4(3));
     }
 }

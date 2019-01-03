@@ -6,10 +6,14 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Q4_toupperTest {
+public class CalculateFactorialTest {
+
+    CalculateFactorial q7;
 
     @Before
     public void setUp() throws Exception {
+
+        q7=new CalculateFactorial();
     }
 
     @After
@@ -17,13 +21,8 @@ public class Q4_toupperTest {
     }
 
     @Test
-    public void convert() {
+    public void factorial() {
 
-    }
-
-    @Test
-    public void length()
-    {
-
+        assertEquals(24,q7.factorial(4));
     }
 }

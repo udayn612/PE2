@@ -2,7 +2,7 @@ package com.stackroute.unittest.pe2;
 
 import java.util.Scanner;
 
-public class Q6_student {
+public class StudentGradesMaxMinAvg {
 
         public int minimum(int num, int arr[]){
             int min = arr[0];
@@ -44,7 +44,7 @@ public class Q6_student {
 
             int a[] = new int[]{1,2,3,4,5};
 
-            Q6_student qs = new Q6_student();
+            StudentGradesMaxMinAvg qs = new StudentGradesMaxMinAvg();
             System.out.println(qs.maximum(number,a));
             System.out.println(qs.minimum(number,a));
             System.out.println(qs.average(number,a));

@@ -2,7 +2,7 @@ package com.stackroute.unittest.pe2;
 
 import java.util.Scanner;
 
-public class Q2_powerof4 {
+public class PowerofFour {
 
     public boolean ispower4(long n)
     {
@@ -25,7 +25,7 @@ public class Q2_powerof4 {
         Scanner sc=new Scanner(System.in);
         long n=sc.nextLong();
 
-        Q2_powerof4 q2 = new Q2_powerof4();
+        PowerofFour q2 = new PowerofFour();
 
 
         System.out.println(q2.ispower4(n));

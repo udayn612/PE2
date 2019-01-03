@@ -1,9 +1,8 @@
 package com.stackroute.unittest.pe2;
 
-import java.awt.peer.SystemTrayPeer;
 import java.util.Scanner;
 
-public class Q1_reverse {
+public class ReverseInput {
 
     public String reverse( String str1)
     {
@@ -36,7 +35,7 @@ public class Q1_reverse {
         Scanner sc=new Scanner(System.in);
         String str=sc.next();
 
-        Q1_reverse q1 = new Q1_reverse();
+        ReverseInput q1 = new ReverseInput();
         System.out.println(q1.ispallindrome(str));
         System.out.println(q1.reverse(str));
     }

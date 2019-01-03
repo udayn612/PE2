@@ -2,7 +2,7 @@ package com.stackroute.unittest.pe2;
 
 import java.util.Scanner;
 
-public class Q5_iseven {
+public class EvenOddCheck {
 
     public static boolean isEven(int n)
     {

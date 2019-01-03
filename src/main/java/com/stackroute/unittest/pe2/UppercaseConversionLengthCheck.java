@@ -1,6 +1,6 @@
 package com.stackroute.unittest.pe2;
 
-public class Q4_toupper {
+public class UppercaseConversionLengthCheck {
 
     public String convert()
     {

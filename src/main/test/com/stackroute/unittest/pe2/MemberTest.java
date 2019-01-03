@@ -6,13 +6,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Q3_otherTest {
+public class MemberTest {
 
-    Q3_other q3;
+    Member q3;
     @Before
     public void setUp() throws Exception {
 
-        q3=new Q3_other();
+        q3=new Member();
     }
 
     @After

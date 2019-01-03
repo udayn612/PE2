@@ -1,8 +1,8 @@
 package com.stackroute.unittest.pe2;
 
-public class Q3_other {
+public class Member {
 
-    Q3_Member q3=new Q3_Member("uday",22,50000);
+    MemberVariable q3=new MemberVariable("uday",22,50000);
     public String name()
     {
 //       System.out.println(q3.name);
@@ -24,10 +24,10 @@ public class Q3_other {
     public static  void main(String args[])
     {
 
-        Q3_other q3_other=new Q3_other();
-        q3_other.salary();
-        q3_other.age();
-        q3_other.name();
+        Member member =new Member();
+        member.salary();
+        member.age();
+        member.name();
     }
 
 }

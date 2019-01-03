@@ -6,15 +6,15 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Q6_studentTest {
+public class StudentGradesMaxMinAvgTest {
 
-    Q6_student q6;
+    StudentGradesMaxMinAvg q6;
     int a[] = new int[]{1,2,3,4,5};
     @Before
     public void setUp() throws Exception {
 
 
-        q6=new Q6_student();
+        q6=new StudentGradesMaxMinAvg();
 
     }
 

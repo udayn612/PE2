@@ -2,7 +2,7 @@ package com.stackroute.unittest.pe2;
 
 import java.util.Scanner;
 
-public class Q7_factorial {
+public class CalculateFactorial {
 
     public long factorial(int number) {
         long result = 1;
@@ -18,7 +18,7 @@ public class Q7_factorial {
     {
         Scanner ob = new Scanner(System.in);
         int n=ob.nextInt();
-        Q7_factorial q7=new Q7_factorial();
+        CalculateFactorial q7=new CalculateFactorial();
 
         System.out.println(q7.factorial(n));
 
