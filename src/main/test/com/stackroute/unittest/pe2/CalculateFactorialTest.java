@@ -8,12 +8,12 @@ import static org.junit.Assert.*;
 
 public class CalculateFactorialTest {
 
-    CalculateFactorial q7;
+    CalculateFactorial calculateFactorial;
 
     @Before
     public void setUp() throws Exception {
 
-        q7=new CalculateFactorial();
+        calculateFactorial=new CalculateFactorial();
     }
 
     @After
@@ -23,6 +23,6 @@ public class CalculateFactorialTest {
     @Test
     public void factorial() {
 
-        assertEquals(24,q7.factorial(4));
+        assertEquals(24,calculateFactorial.factorial(4));
     }
 }

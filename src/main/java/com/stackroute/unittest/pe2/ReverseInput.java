@@ -15,7 +15,7 @@ public class ReverseInput {
     }
 
 
-    public boolean ispallindrome(String str)
+    public boolean isPallindrome(String str)
     {
 
         int i = str.length()-1;
@@ -35,8 +35,8 @@ public class ReverseInput {
         Scanner sc=new Scanner(System.in);
         String str=sc.next();
 
-        ReverseInput q1 = new ReverseInput();
-        System.out.println(q1.ispallindrome(str));
-        System.out.println(q1.reverse(str));
+        ReverseInput reverseInput = new ReverseInput();
+        System.out.println(reverseInput.isPallindrome(str));
+        System.out.println(reverseInput.reverse(str));
     }
 }

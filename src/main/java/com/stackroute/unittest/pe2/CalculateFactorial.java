@@ -18,9 +18,9 @@ public class CalculateFactorial {
     {
         Scanner ob = new Scanner(System.in);
         int n=ob.nextInt();
-        CalculateFactorial q7=new CalculateFactorial();
+        CalculateFactorial calculateFactorial=new CalculateFactorial();
 
-        System.out.println(q7.factorial(n));
+        System.out.println(calculateFactorial.factorial(n));
 
 
     }

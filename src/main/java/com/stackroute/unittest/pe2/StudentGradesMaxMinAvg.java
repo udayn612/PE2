@@ -44,10 +44,10 @@ public class StudentGradesMaxMinAvg {
 
             int a[] = new int[]{1,2,3,4,5};
 
-            StudentGradesMaxMinAvg qs = new StudentGradesMaxMinAvg();
-            System.out.println(qs.maximum(number,a));
-            System.out.println(qs.minimum(number,a));
-            System.out.println(qs.average(number,a));
+            StudentGradesMaxMinAvg studentGradesMaxMinAvg = new StudentGradesMaxMinAvg();
+            System.out.println(studentGradesMaxMinAvg.maximum(number,a));
+            System.out.println(studentGradesMaxMinAvg.minimum(number,a));
+            System.out.println(studentGradesMaxMinAvg.average(number,a));
 
 
         }

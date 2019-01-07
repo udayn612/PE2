@@ -2,32 +2,34 @@ package com.stackroute.unittest.pe2;
 
 public class Member {
 
-    MemberVariable q3=new MemberVariable("uday",22,50000);
-    public String name()
-    {
-//       System.out.println(q3.name);
-        return q3.name;
+    private String name;
+    private int age;
+    private double salary;
+
+    public double getSalary() {
+        return salary;
     }
 
-    public int  age()
-    {
-//        System.out.println(q3.age);
-        return q3.age;
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
-    public double salary()
-    {
-//        System.out.println(q3.salary);
-        return q3.salary;
+    public int getAge() {
+        return age;
     }
 
-    public static  void main(String args[])
-    {
-
-        Member member =new Member();
-        member.salary();
-        member.age();
-        member.name();
+    public void setAge(int age) {
+        this.age = age;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
 
 }

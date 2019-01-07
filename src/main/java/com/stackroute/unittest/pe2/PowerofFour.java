@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PowerofFour {
 
-    public boolean ispower4(long n)
+    public boolean isPower4(long n)
     {
 
         if(n == 0)
@@ -25,9 +25,9 @@ public class PowerofFour {
         Scanner sc=new Scanner(System.in);
         long n=sc.nextLong();
 
-        PowerofFour q2 = new PowerofFour();
+        PowerofFour powerofFour = new PowerofFour();
 
 
-        System.out.println(q2.ispower4(n));
+        System.out.println(powerofFour.isPower4(n));
     }
 }

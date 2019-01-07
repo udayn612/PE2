@@ -2,17 +2,23 @@ package com.stackroute.unittest.pe2;
 
 public class MemberVariable {
 
-    String name;
-    int age;
-    double salary;
+    Member member=new Member();
 
-    MemberVariable(String name, int age, double salary)
+    public String memberName(String name)
     {
-        this.name=name;
-        this.age=age;
-        this.salary=salary;
-
+        member.setName(name);
+        return member.getName();
     }
 
+    public int memberAge(int age)
+    {
+        member.setAge(age);
+        return member.getAge();
+    }
 
+    public double memberSalary(int salary)
+    {
+        member.setSalary(salary);
+        return member.getSalary();
+    }
 }
