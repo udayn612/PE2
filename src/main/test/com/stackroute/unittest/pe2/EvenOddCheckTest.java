@@ -20,6 +20,7 @@ public class EvenOddCheckTest {
     public void isEvenSuccess() {
         assertEquals(true, EvenOddCheck.isEven(2));
     }
+
     @Test
     public void isEvenFailure() {
         assertNotEquals(false, EvenOddCheck.isEven(4));

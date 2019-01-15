@@ -9,9 +9,10 @@ import static org.junit.Assert.*;
 public class PowerofFourTest {
 
     PowerofFour powerofFour;
+
     @Before
     public void setUp() throws Exception {
-        powerofFour=new PowerofFour();
+        powerofFour = new PowerofFour();
     }
 
     @After
@@ -19,7 +20,12 @@ public class PowerofFourTest {
     }
 
     @Test
-    public void ispower4() {
-        assertEquals(false,powerofFour.isPower4(3));
+    public void isPower4() {
+        assertEquals(false, powerofFour.isPower4(3));
+    }
+
+    @Test
+    public void isPower4Failure() {
+        assertNotEquals(false, powerofFour.isPower4(4));
     }
 }

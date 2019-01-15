@@ -13,7 +13,7 @@ public class CalculateFactorialTest {
     @Before
     public void setUp() throws Exception {
 
-        calculateFactorial=new CalculateFactorial();
+        calculateFactorial = new CalculateFactorial();
     }
 
     @After
@@ -21,8 +21,13 @@ public class CalculateFactorialTest {
     }
 
     @Test
-    public void factorial() {
+    public void factorialSuccess() {
 
-        assertEquals(24,calculateFactorial.factorial(4));
+        assertEquals(24, calculateFactorial.factorial(4));
+    }
+
+    @Test
+    public void factorialFailure() {
+        assertNotEquals(23, calculateFactorial.factorial(4));
     }
 }

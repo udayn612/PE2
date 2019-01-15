@@ -4,13 +4,13 @@ public class Member {
 
     private String name;
     private int age;
-    private double salary;
+    private long salary;
 
-    public double getSalary() {
+    public long getSalary() {
         return salary;
     }
 
-    public void setSalary(double salary) {
+    public void setSalary(long salary) {
         this.salary = salary;
     }
 
@@ -29,7 +29,6 @@ public class Member {
     public void setName(String name) {
         this.name = name;
     }
-
 
 
 }

@@ -9,9 +9,10 @@ import static org.junit.Assert.*;
 public class ReverseInputTest {
 
     ReverseInput reverseInput;
+
     @Before
     public void setUp() throws Exception {
-        reverseInput=new ReverseInput();
+        reverseInput = new ReverseInput();
     }
 
     @After
@@ -19,21 +20,30 @@ public class ReverseInputTest {
     }
 
     @Test
-    public void reversetest()
-    {
+    public void reversetest() {
 
     }
 
     @Test
     public void reverse() {
 
-        assertEquals("cba",reverseInput.reverse("abc"));
+        assertEquals("&&$", reverseInput.reverse("$&&"));
 
     }
 
     @Test
-    public void ispallindrome() {
+    public void reverseFailure() {
+        assertNotEquals("123", reverseInput.reverse("123"));
+    }
 
-        assertEquals(false,reverseInput.isPallindrome("abc"));
+    @Test
+    public void isPallindrome() {
+
+        assertEquals(false, reverseInput.isPallindrome("abc"));
+    }
+
+    @Test
+    public void ispallindromeFailure() {
+        assertNotEquals(true, reverseInput.isPallindrome("abc"));
     }
 }
